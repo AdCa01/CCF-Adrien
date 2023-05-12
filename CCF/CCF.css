@@ -1,0 +1,146 @@
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-color: #ffc947;
+ 
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+
+
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -180px;
+  height: 40px;
+}
+
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+border-color: black;
+text-shadow: 2px 2px #111111
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.bouton1 {
+  background-color: #4CAF50; /* Couleur de fond */
+  border: none; /* Supprime la bordure */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement intérieur du bouton */
+  text-align: center; /* Alignement du texte */
+  text-decoration: none; /* Supprime les styles de texte par défaut */
+  display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
+  font-size: 16px; /* Taille de la police */
+  margin: 10px 2px; /* Marge extérieure du bouton */
+  cursor: pointer; /* Change le curseur au survol du bouton */
+  border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+.bouton1:hover {
+  background-color: #45a049; /* Couleur de fond au survol */
+}
+
+.bouton2 {
+  background-color: #4CAF50; /* Couleur de fond */
+  border: none; /* Supprime la bordure */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement intérieur du bouton */
+  text-align: center; /* Alignement du texte */
+  text-decoration: none; /* Supprime les styles de texte par défaut */
+  display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
+  font-size: 16px; /* Taille de la police */
+  margin: 10px 2px; /* Marge extérieure du bouton */
+  cursor: pointer; /* Change le curseur au survol du bouton */
+  border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+.bouton2:hover {
+  background-color: #45a049; /* Couleur de fond au survol */
+}
+
+.bouton3 {
+  background-color: #4CAF50; /* Couleur de fond */
+  border: none; /* Supprime la bordure */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement intérieur du bouton */
+  text-align: center; /* Alignement du texte */
+  text-decoration: none; /* Supprime les styles de texte par défaut */
+  display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
+  font-size: 16px; /* Taille de la police */
+  margin: 10px 2px; /* Marge extérieure du bouton */
+  cursor: pointer; /* Change le curseur au survol du bouton */
+  border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+.bouton3:hover {
+  background-color: #45a049; /* Couleur de fond au survol */
+}
+
+.bouton4 {
+  background-color: #4CAF50; /* Couleur de fond */
+  border: none; /* Supprime la bordure */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement intérieur du bouton */
+  text-align: center; /* Alignement du texte */
+  text-decoration: none; /* Supprime les styles de texte par défaut */
+  display: inline-block; /* Affiche le bouton en tant qu'élément en ligne */
+  font-size: 16px; /* Taille de la police */
+  margin: 10px 2px; /* Marge extérieure du bouton */
+  cursor: pointer; /* Change le curseur au survol du bouton */
+  border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+.bouton4:hover {
+  background-color: #45a049; /* Couleur de fond au survol */
+}
+
